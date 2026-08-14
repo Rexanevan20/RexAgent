@@ -33,7 +33,7 @@ async def chat_ai(update: Update, context: ContextTypes.DEFAULT_TYPE):
         response = ai_client.chat.completions.create(
             model=AI_MODEL,
             messages=[
-                {"role": "system", "content": "Kamu adalah asisten yang membalas dalam Bahasa Indonesia, singkat dan jelas."},
+                {"role": "system", "content": "Kamu adalah asisten yang membalas dalam Bahasa Indonesia, singkat dan jelas. Jangan gunakan markdown formatting seperti **, __, #, atau format apapun. Balasan harus plain text aja."} 
                 {"role": "user", "content": pesan_masuk},
             ],
         )
