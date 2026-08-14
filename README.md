@@ -1,6 +1,6 @@
 # Bot Telegram - Versi Dasar
 
-Bot ini baru bisa membalas pesan (echo), belum pakai AI.
+Bot ini baru bisa membalas pesan, belum pakai AI.
 
 ## Cara jalanin di Railway
 1. Upload 3 file ini (main.py, requirements.txt, Procfile) ke repo GitHub baru.
