@@ -24,8 +24,8 @@ ai_client = OpenAI(api_key=AI_API_KEY, base_url=AI_BASE_URL)
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Dipanggil waktu user pertama kali chat /start ke bot"""
     await update.message.reply_text(
-        "Halo! Bot aku udah nyala 🚀\n\n"
-        "Coba kirim pesan apa aja, nanti aku bales pake AI."
+        "Halo! King Rex Ada Yang Bisa Aku Bantu ?\n\n"
+    
     )
 
 
