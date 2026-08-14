@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 AI_API_KEY = os.environ.get("AI_API_KEY")
 AI_BASE_URL = os.environ.get("AI_BASE_URL", "https://seekai.cc/v1")
-AI_MODEL = os.environ.get("AI_MODEL", "gpt-4o-mini")  # ganti sesuai nama model yg ada di dashboard seekai.cc km
+AI_MODEL = os.environ.get("AI_MODEL", "deepseek-v4-flash")  # ganti sesuai nama model yg ada di dashboard seekai.cc km
 
 # ---- Client buat manggil AI ----
 ai_client = OpenAI(api_key=AI_API_KEY, base_url=AI_BASE_URL)
