@@ -1,1 +1,1 @@
-worker: python main.py
+worker: python bot_with_memory.py
